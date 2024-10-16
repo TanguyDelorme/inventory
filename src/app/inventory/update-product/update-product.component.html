@@ -1,0 +1,29 @@
+<form [formGroup]="formProduct">
+  <mat-form-field>
+    <mat-label>Nom</mat-label>
+    <input formControlName="name" matInput required/>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Reference</mat-label>
+    <input formControlName="reference" matInput required/>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Marque</mat-label>
+    <input formControlName="brand" matInput required/>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Prix</mat-label>
+    <input formControlName="price" matInput required/>
+  </mat-form-field>
+</form>
+
+<button mat-raised-button (click)="cancel()">
+  Annuler
+</button>
+
+<button mat-raised-button (click)="confirm()">
+  Confirmer
+</button>

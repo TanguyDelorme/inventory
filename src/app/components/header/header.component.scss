@@ -1,0 +1,21 @@
+nav {
+  background: #d7e3ff;
+  height: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #005cbb;;
+
+  .header {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+
+    .app-logo{
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+

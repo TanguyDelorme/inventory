@@ -1,0 +1,26 @@
+.striped-table {
+  width: 100%;
+}
+
+.striped-table .mat-mdc-row:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.striped-table .mat-mdc-row:nth-child(odd) {
+  background-color: #d7e3ff;
+}
+
+.striped-table .mat-mdc-row:hover {
+  background-color: #005cbb;
+  color: white;
+}
+
+.striped-table th.mat-mdc-header-cell {
+  background-color: #005cbb;
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
